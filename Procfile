@@ -1,2 +1,1 @@
-heroku ps:scale worker=1
-web: sh streamlit run app.py
+web: sh setup.sh && streamlit run your_app.py
